@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <div align="center">
-   <img src="./assets/paige_mascot.png" alt="Logo" width="200" height="200">
+   <!-- <img src="./assets/paige_mascot.png" alt="Logo" width="200" height="200"> -->
    <h1 align="center">Incontinuity</h1>
     <p align="center">Context control for LLM inference on a per-token basis</p>
 </div>
