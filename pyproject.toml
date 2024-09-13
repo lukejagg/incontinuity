@@ -1,12 +1,28 @@
 [tool.poetry]
 name = "incontinuity"
-version = "0.1.0"
-description = ""
-authors = ["lukejagg <lukejagg@gmail.com>"]
+version = "0.0.0"
+description = "Context control for LLM inference on a per-token basis"
+authors = ["Lucas Jaggernauth <lukejagg@gmail.com>"]
 readme = "README.md"
+homepage = "https://github.com/lukejagg/incontinuity"
+repository = "https://github.com/lukejagg/incontinuity"
+keywords = ["llm", "llm agent", "prompt", "ai"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.8"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/lukejagg/incontinuity/issues"
 
 
 [build-system]
