@@ -17,8 +17,21 @@ For example, instead of waiting for an LLM to generate some typed XML code, you 
 
 Think of it like using an IDE. You're writing code and you made a typo, so you go back and fix it. Oh no, you used the wrong type, so you go back and fix it. Incontinuity allows you to do the same thing with LLMs.
 
+## Getting Started
+
+```bash
+pip install incontinuity
+```
+
+---
+
+## Development
+
+```bash
+poetry shell
+poetry install
+```
+
 ---
 
 I've been working on LLM agents since the inception of LLMs and I've always wanted to have this level of control. I havent seen any packages for this, so I decided to create one. I hope you find it useful!
-
-
